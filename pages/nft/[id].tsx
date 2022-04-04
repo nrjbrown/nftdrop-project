@@ -41,9 +41,9 @@ function NFTDropPage({ collection }: Props) {
         </div>
       </div>
 
-      {/* Right */}
+      {/* Right of the main page */}
       <div className="flex flex-1 flex-col p-12 lg:col-span-6">
-        {/* Header */}
+        {/* Header of the main page */}
         <header className="flex items-center justify-between">
             <Link href={'/'}>
           <h1 className="w-52 cursor-pointer text-xl font-extralight sm:w-80">
@@ -83,13 +83,13 @@ function NFTDropPage({ collection }: Props) {
             {collection.title}
           </h1>
 
-          <p className="pt-2 text-xl text-green-500">13 / 21 NFT's claimed </p>
+          <p className="pt-2 text-xl text-green-500">14 / 21 NFT's claimed </p>
         </div>
 
         {/* Mint Button */}
 
         <button className="mt-10 h-16 w-full rounded-full bg-red-600 font-bold text-white">
-          Mint NFT (0.01 ETH)
+          Mint NFT (0.001 ETH)
         </button>
       </div>
     </div>
