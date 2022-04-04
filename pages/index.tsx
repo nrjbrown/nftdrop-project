@@ -37,7 +37,7 @@ const Home = ({ collections }: Props) => {
                 src={urlFor(collection.mainImage).url()}
                 alt=""
               />
-              <div div className="p-5">
+              <div className="p-5">
                 <h2 className="text-3xl"> {collection.title}</h2>
                 <p className="text-gray-400 mt-2 text-sm">
                   {collection.description}
