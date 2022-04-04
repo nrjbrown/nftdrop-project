@@ -12,8 +12,6 @@ interface Props {
 const Home = ({ collections }: Props) => {
   return (
     <div className="mx-auto flex min-h-screen max-w-7xl flex-col py-20 px-10 2xl:px-0">
-
-      
       <Head>
         <title>NFT App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -27,23 +25,23 @@ const Home = ({ collections }: Props) => {
         NFT Marketplace
       </h1>
 
-      <main className="grid bg-slate-100 shadow-xl shadow-rose-400/20 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 space-x-3 p-10">
+      <main className="grid space-x-3 bg-slate-100 p-10 shadow-xl shadow-rose-400/20 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
         <div>
           {collections.map((collection) => (
             <Link href={`/nft/${collection.slug.current}`}>
-            <div className="flex  flex-col cursor-pointer items-center transition-all duration-200 hover:scale-105">
-              <img
-                className="h-96 w-60 rounded-2xl object-cover"
-                src={urlFor(collection.mainImage).url()}
-                alt="main Image"
-              />
-              <div className="p-5">
-                <h2 className="text-3xl"> {collection.title}</h2>
-                <p className="text-gray-400 mt-2 text-sm">
-                  {collection.description}
-                </p>
+              <div className="flex  cursor-pointer flex-col items-center transition-all duration-200 hover:scale-105">
+                <img
+                  className="h-96 w-60 rounded-2xl object-cover"
+                  src={urlFor(collection.mainImage).url()}
+                  alt="main Image"
+                />
+                <div className="p-5">
+                  <h2 className="text-3xl"> {collection.title}</h2>
+                  <p className="mt-2 text-sm text-gray-400">
+                    {collection.description}
+                  </p>
+                </div>
               </div>
-            </div>
             </Link>
           ))}
         </div>
@@ -58,7 +56,7 @@ const Home = ({ collections }: Props) => {
               />
               <div div className="p-5">
                 <h2 className="text-3xl"> {collection.title}</h2>
-                <p className="text-gray-400 mt-2 text-sm">
+                <p className="mt-2 text-sm text-gray-400">
                   {collection.description}
                 </p>
               </div>
@@ -76,7 +74,7 @@ const Home = ({ collections }: Props) => {
               />
               <div div className="p-5">
                 <h2 className="text-3xl"> {collection.title}</h2>
-                <p className="text-gray-400 mt-2 text-sm">
+                <p className="mt-2 text-sm text-gray-400">
                   {collection.description}
                 </p>
               </div>
@@ -94,7 +92,7 @@ const Home = ({ collections }: Props) => {
               />
               <div className="p-5">
                 <h2 className="text-3xl"> {collection.title}</h2>
-                <p className="text-gray-400 mt-2 text-sm">
+                <p className="mt-2 text-sm text-gray-400">
                   {collection.description}
                 </p>
               </div>
