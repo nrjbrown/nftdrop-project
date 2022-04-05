@@ -54,7 +54,7 @@ const Home = ({ collections }: Props) => {
                 src={urlFor(collection.mainImage).url()}
                 alt=""
               />
-              <div div className="p-5">
+              <div className="p-5">
                 <h2 className="text-3xl"> {collection.title}</h2>
                 <p className="mt-2 text-sm text-gray-400">
                   {collection.description}
@@ -72,7 +72,7 @@ const Home = ({ collections }: Props) => {
                 src={urlFor(collection.mainImage).url()}
                 alt=""
               />
-              <div div className="p-5">
+              <div className="p-5">
                 <h2 className="text-3xl"> {collection.title}</h2>
                 <p className="mt-2 text-sm text-gray-400">
                   {collection.description}
