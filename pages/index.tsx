@@ -50,12 +50,12 @@ const Home = ({ collections }: Props) => {
           {collections.map((collection) => (
             <div className="flex cursor-pointer flex-col items-center transition-all duration-200 hover:scale-105">
               <img
-                className="h-96 w-60 rounded-2xl object-cover"
+                className="h-96 w-60 rounded-2xl object-cover blur-sm"
                 src={urlFor(collection.mainImage).url()}
                 alt=""
               />
               <div className="p-5">
-                <h2 className="text-3xl"> {collection.title}</h2>
+              <h2 className="text-3xl">NFT Collection Coming Soon...</h2>
                 <p className="mt-2 text-sm text-gray-400">
                   {collection.description}
                 </p>
@@ -68,14 +68,14 @@ const Home = ({ collections }: Props) => {
           {collections.map((collection) => (
             <div className="flex cursor-pointer flex-col items-center transition-all duration-200 hover:scale-105">
               <img
-                className="h-96 w-60 rounded-2xl object-cover"
+                className="h-96 w-60 rounded-2xl object-cover blur-sm"
                 src={urlFor(collection.mainImage).url()}
                 alt=""
               />
               <div className="p-5">
-                <h2 className="text-3xl"> {collection.title}</h2>
+                <h2 className="text-3xl">NFT Collection Coming Soon...</h2>
                 <p className="mt-2 text-sm text-gray-400">
-                  {collection.description}
+                  {collection.description} 
                 </p>
               </div>
             </div>
@@ -86,12 +86,12 @@ const Home = ({ collections }: Props) => {
           {collections.map((collection) => (
             <div className="flex cursor-pointer flex-col items-center transition-all duration-200 hover:scale-105">
               <img
-                className="h-96 w-60 rounded-2xl object-cover"
+                className="h-96 w-60 rounded-2xl object-cover blur-sm"
                 src={urlFor(collection.mainImage).url()}
                 alt=""
               />
               <div className="p-5">
-                <h2 className="text-3xl"> {collection.title}</h2>
+              <h2 className="text-3xl">NFT Collection Coming Soon...</h2>
                 <p className="mt-2 text-sm text-gray-400">
                   {collection.description}
                 </p>
