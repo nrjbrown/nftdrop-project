@@ -1,4 +1,4 @@
-# NEV'S TINDER-CLONE APP DEMO 
+# NEV'S NFT DROP APP DEMO 
 ### `⬇⬇⬇ launch app `
 ## [click here](nftdrop-project-7kr73vzol-nrjbrown.vercel.app)
 
